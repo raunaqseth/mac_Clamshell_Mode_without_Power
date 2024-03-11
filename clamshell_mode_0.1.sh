@@ -1,7 +1,11 @@
 #!/bin/bash
 trap "" 1 2 3 4 5 6 7 8 9 20
-
 trap "" SIGTSTP
+if [ "$EUID" -ne 0 ];then
+    echo "Please run this script as root"
+    sleep 4
+    exit 1
+fi
 # Get the current hibernatemode variable
 HIBERNATE3=" hibernatemode        3"
 HIBERNATE0=" hibernatemode        0"
