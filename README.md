@@ -2,11 +2,17 @@
 Apple will not let you do that unless you have a power adapter connected to your MacBook. In order to use a MacBook in clamshell mode without keeping the charger always connected to it I have created this script that checks whether the device Clamshell Mode Status and gives you optoin to change it to default or without power.
 
 #About the Script
+For command line 
 Donwload the script and provide executable permissions 
 chmod 755 clamshell_mode_0.1.sh 
 Run the script through terminal with sudo priviledges 
 sudo ./clamshell_mode_0.1.sh
 
+For direct Download clamshell_mode_0.1.command 
+if doesnt work provide exec permissions by opening the path in terminal 
+cd Downloads (in Default case as the file will be in downloads)
+chmod 755 clamshell_mode_0.1.command
+ 
 Purpose: This script helps you manage the power settings on your Mac computer. Specifically, it allows you to switch between two modes: Default Clamshell Mode and Clamshell Mode without Power.
 
 How to Use:
