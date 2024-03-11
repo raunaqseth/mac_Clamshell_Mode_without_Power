@@ -7,11 +7,6 @@ Donwload the script and provide executable permissions
 chmod 755 clamshell_mode_0.1.sh 
 Run the script through terminal with sudo priviledges 
 sudo ./clamshell_mode_0.1.sh
-
-For direct Download clamshell_mode_0.1.command 
-if doesnt work provide exec permissions by opening the path in terminal 
-cd Downloads (in Default case as the file will be in downloads)
-chmod 755 clamshell_mode_0.1.command
  
 Purpose: This script helps you manage the power settings on your Mac computer. Specifically, it allows you to switch between two modes: Default Clamshell Mode and Clamshell Mode without Power.
 
