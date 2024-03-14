@@ -24,8 +24,11 @@ After Choosing an Option:
 After you choose an option, the script will apply the selected mode and show you a message confirming the action.
 Then, it will wait for a few seconds before showing the menu again, so you can choose another action if needed.
 Exiting the Script:
+![image](https://github.com/raunaqseth/mac_Clamshell_Mode_without_Power/assets/54443202/fbb4f5ec-93b2-4ebf-8201-541780fa52c9)
 
 If you choose to exit the script, it will say goodbye and close after a few seconds.
+![image](https://github.com/raunaqseth/mac_Clamshell_Mode_without_Power/assets/54443202/bbf6f7d6-6449-4c26-a576-0046beb6ee5a)
+
 Special Cases:
 
 If your system doesn't support the expected power settings or if there's an error determining the current mode, the script will inform you and then exit.
